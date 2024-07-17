@@ -1,0 +1,5 @@
+sinfo -p gpunodes -o "%20N  %10m  %25f  %20G "
+sinfo -p cpunodes,bigmemnodes
+slurm_report -c
+slurm_report -p
+sinfo -p gpunodes

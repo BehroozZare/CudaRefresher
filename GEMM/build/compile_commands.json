@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/u/behrooz/CudaRefresher/GEMM/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/usr/local/cuda/include -I/u/behrooz/CudaRefresher/GEMM/src -O3 -DNDEBUG --generate-code=arch=compute_86,code=[compute_86,sm_86] -x cu -c /u/behrooz/CudaRefresher/GEMM/sgemm.cu -o CMakeFiles/sgemm.dir/sgemm.cu.o",
+  "file": "/u/behrooz/CudaRefresher/GEMM/sgemm.cu"
+},
+{
+  "directory": "/u/behrooz/CudaRefresher/GEMM/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/usr/local/cuda/include -I/u/behrooz/CudaRefresher/GEMM/src -O3 -DNDEBUG --generate-code=arch=compute_86,code=[compute_86,sm_86] -x cu -c /u/behrooz/CudaRefresher/GEMM/src/runner.cu -o CMakeFiles/sgemm.dir/src/runner.cu.o",
+  "file": "/u/behrooz/CudaRefresher/GEMM/src/runner.cu"
+},
+{
+  "directory": "/u/behrooz/CudaRefresher/GEMM/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/usr/local/cuda/include -I/u/behrooz/CudaRefresher/GEMM/src -O3 -DNDEBUG --generate-code=arch=compute_52,code=[compute_52,sm_52] -x cu -c /u/behrooz/CudaRefresher/GEMM/cuBLAS_sgemm.cu -o CMakeFiles/cuBLAS_sgemm.dir/cuBLAS_sgemm.cu.o",
+  "file": "/u/behrooz/CudaRefresher/GEMM/cuBLAS_sgemm.cu"
+},
+{
+  "directory": "/u/behrooz/CudaRefresher/GEMM/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/usr/local/cuda/include -I/u/behrooz/CudaRefresher/GEMM/src -O3 -DNDEBUG --generate-code=arch=compute_52,code=[compute_52,sm_52] -x cu -c /u/behrooz/CudaRefresher/GEMM/simplest_kernel.cu -o CMakeFiles/simplest_kernel.dir/simplest_kernel.cu.o",
+  "file": "/u/behrooz/CudaRefresher/GEMM/simplest_kernel.cu"
+}
+]
